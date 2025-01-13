@@ -15,30 +15,6 @@ This API calculates various fitness metrics such as BMI, BMR, TDEE, and macronut
 - Generate macronutrient and micronutrient breakdowns
     
 
----
-
-## Folder Structure
-
-```
-fitness-calculator-api/
-|
-├── main.go              // Entry point
-├── handlers/            // API handlers
-│   ├── fitness.go       // Handlers for all fitness calculations
-│
-├── calculations/        // Core calculation logic
-│   ├── bmi.go           // Logic for BMI calculation
-│   ├── bmr.go           // Logic for BMR calculation
-│   ├── tdee.go          // Logic for TDEE calculation
-│   ├── macros.go        // Logic for macronutrient calculation
-│   ├── micronutrients.go// Logic for micronutrient calculation
-│
-└── models/              // Data models
-    ├── user.go          // User struct definition
-```
-
----
-
 ## Installation
 
 1. **Clone the repository**:
