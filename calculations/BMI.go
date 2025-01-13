@@ -1,5 +1,5 @@
 package calculations
 
-func calculateBMI(weight, height float64) float64 {
+func CalculateBMI(weight, height float64) float64 {
   return weight / (weight * height);
 }
