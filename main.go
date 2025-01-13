@@ -2,7 +2,7 @@ package main
 
 import (
   	"github.com/gin-gonic/gin"
-  	"fitness-calculator-api/handlers"
+  	"fitnessApi/handlers"
 )
 
 func main(){
